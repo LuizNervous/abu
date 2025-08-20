@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    flex-wrap: wrap;
+    
+}h1{
+    padding: 30px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}h1{
+    font-weight: bold;
+}
+.descri{
+    background-color: rgb(6, 44, 114);
+    color: rgb(216, 216, 216);
+    margin: 0px 200px 0px 200px;
+}

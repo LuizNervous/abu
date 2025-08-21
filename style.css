@@ -1,7 +1,7 @@
 header{
     display: flex;
     flex-wrap: wrap;
-    
+    background-color: aliceblue;
 }h1{
     padding: 30px;
 }
@@ -9,6 +9,8 @@ header{
 main{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
 }
 .title{
     display: flex;
@@ -20,6 +22,24 @@ main{
 }
 .descri{
     background-color: rgb(6, 44, 114);
-    color: rgb(216, 216, 216);
+    color: rgb(236, 230, 230);
     margin: 0px 200px 0px 200px;
+    padding: 10px;
+}
+.perigo{
+    background-color: brown;
+    border-radius:10px 0px 10px 0px;
+    color: rgb(252, 242, 229);
+}
+img{
+    border-radius: 10px;
+    margin: 19px;
+}
+footer{
+    background-color: rgb(6, 44, 114);
+    color: rgb(236, 230, 230);
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
